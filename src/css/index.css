@@ -86,6 +86,14 @@
     height: 150px;
     background-color: black;
 }
+.trunk--blink{
+    background-image: url('../img/blink.jpeg');
+    background-position-y: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 100px;
+}
 .arms{
     position: absolute;
     margin-top: -130px;
@@ -98,9 +106,8 @@
     background-color: #999;
     position: absolute;
 }
-.arms--left::before{
-    width: 50px;
-    height: 50px;
+.arms--left--blink{
+    background-color: #F7CDAD!important;
 }
 .arms--right{
     width: 20px;
@@ -108,6 +115,9 @@
     background-color: #999;
     margin-left: 140px;
     position: absolute;
+}
+.arms--right--blink{
+    background-color: #F7CDAD!important;
 }
 
 /* BUTTON */
