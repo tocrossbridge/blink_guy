@@ -10,6 +10,16 @@
     background-color: #000;
     border-radius: 20px 20px 0px 0px;
 }
+.fringe{
+    background-color: #000;
+    width: 99px;
+    height: 50px;
+    border-radius: 40% 100% 0 100%;
+    position: absolute;
+    z-index: 4;
+    box-shadow: inset 12px 0px 0px 1px white;
+    top: 30%;
+}
 
 /* HEAD */
 .head{
@@ -18,6 +28,9 @@
     background-color: white;
     border: 2px solid #999;
     border-radius: 50%;
+}
+.head--blink{
+    border: 2px solid #efd8c6!important;
 }
 .forehead{
     width: 70px;
@@ -93,11 +106,25 @@
     background-repeat: no-repeat;
     height: 150px;
     width: 100px;
+    z-index: 2;
+    position: absolute;
+}
+.shoulder{
+    width: 155px;
+    height: 50px;
+    position: absolute;
+    margin-left: -28px;
+    border-radius: 10px 10px 0px 0px;
+    z-index: 1;
+    background-color: black;
+}
+.shoulder--blink{
+    border-radius: 0px 0px 10px 10px;
 }
 .arms{
     position: absolute;
     margin-top: -130px;
-    margin-left: -30px;
+    margin-left: -24px;
 }
 
 .arms--left{
@@ -113,7 +140,7 @@
     width: 20px;
     height: 130px;
     background-color: #999;
-    margin-left: 140px;
+    margin-left: 127px;
     position: absolute;
 }
 .arms--right--blink{
@@ -137,6 +164,9 @@ main{
     margin-left: 30%;
     margin-top: 20%;
 }
-.mt-5{
+.section-btn{
     margin-top: 5rem;
+}
+.section-btn--blink{
+    margin-top: 14rem;
 }
