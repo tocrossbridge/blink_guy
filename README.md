@@ -24,7 +24,7 @@ Open on your favorite browser ;)
 <b>Thank you for your support!</b>
 
 # Preview
-<img src="overview.png" alt="The blink guy ;)" />
+<img src="./src/img/banner.png" alt="The blink guy ;)" />
 
 
 # How is the development of the project right now?
@@ -41,6 +41,9 @@ Oh, btw, it's not responsible yet :)
 # Credits
 
 The Blink 182 img was from Google :)
+
+The img of the banner was from this site:
+https://allpunkedup.com/heres-how-to-live-stream-a-blink-182-concert-this-weekend/
 
 
 <div>
