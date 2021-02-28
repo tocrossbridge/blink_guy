@@ -40,7 +40,7 @@ Oh, btw, it's not responsible yet :)
 
 # Credits
 
-The Blink 182 img was from Google :)
+The Blink 182 logo was from Google :)
 
 The img of the banner was from this site:
 https://allpunkedup.com/heres-how-to-live-stream-a-blink-182-concert-this-weekend/
