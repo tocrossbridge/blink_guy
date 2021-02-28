@@ -16,6 +16,7 @@ function blink(){
 
     var sectionBtn = document.getElementsByClassName('section-btn');
     var btn = document.getElementsByClassName('btn');
+    var btnBlink = document.getElementsByClassName('btn--blink');
 
 
     hair[0].classList.add('fringe');
@@ -39,4 +40,7 @@ function blink(){
     sectionBtn[0].classList.add('section-btn--blink');
     btn[0].classList.add('btn--blink');
     
+    if(btnBlink){
+        console.log('tá blinkado em nome de jesus!')
+    }
 }
