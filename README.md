@@ -1,7 +1,7 @@
 # Blink Guy
 
 <b>Made with:</b><br/>
-Lorem ipsulum v1.4
+HTML, CSS e JS
 <br/><br/>
 <b>What is this?</b><br/>
 It's a page with a guy, made with CSS and JS, that blinks when you click on the buttons :)
@@ -18,30 +18,27 @@ It's a page with a guy, made with CSS and JS, that blinks when you click on the 
 
 # Project setup
 ```
-Type the commands here
-```
-
-### Compiles and hot-reloads for development
-```
-Type the commands here
+Open on your favorite browser ;)
 ```
 
 <b>Thank you for your support!</b>
 
 # Preview
-<img src="overview.png" alt="Add your img here" />
+<img src="overview.png" alt="The blink guy ;)" />
 
 
 # How is the development of the project right now?
-<b>Last update:</b> 13/12/2020
+<b>Last update:</b> 28/02/2021
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra molestie finibus. Donec lacinia quam at est lobortis tempus. Proin ac ipsum vel orci aliquam consectetur.
+I not did to much, but it was honest work haha.
+Well, the guy is smiling and turn in a blink 182 fan when you click the button.
+Should I refine the CSS stuff? Of course. But not today (or not hahaha)
 
 <br/>
 
 # Credits
 
-Lorem ipsum dolor sit amet
+The Blink 182 img was from Google :)
 
 
 <div>
