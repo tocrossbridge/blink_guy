@@ -158,6 +158,15 @@
     text-transform: uppercase;
     color: #fff;
 }
+.btn::after{
+    content: 'Blink me!';
+}
+.btn--blink{
+    background-color: rgb(226, 24, 24)!important;
+}
+.btn--blink::after{
+    content: 'Unblink me :(('
+}
 
 /* GENERAL */
 main{

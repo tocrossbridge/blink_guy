@@ -15,6 +15,7 @@ function blink(){
     var armsRight = document.getElementsByClassName('arms--right');
 
     var sectionBtn = document.getElementsByClassName('section-btn');
+    var btn = document.getElementsByClassName('btn');
 
 
     hair[0].classList.add('fringe');
@@ -36,5 +37,6 @@ function blink(){
     armsRight[0].classList.add('arms--right--blink');
 
     sectionBtn[0].classList.add('section-btn--blink');
+    btn[0].classList.add('btn--blink');
     
 }
