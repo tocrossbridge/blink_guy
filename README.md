@@ -34,6 +34,8 @@ I not did to much, but it was honest work haha.
 Well, the guy is smiling and turn in a blink 182 fan when you click the button.
 Should I refine the CSS stuff? Of course. But not today (or not hahaha)
 
+Oh, btw, it's not responsible yet :)
+
 <br/>
 
 # Credits
