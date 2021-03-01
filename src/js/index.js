@@ -35,6 +35,8 @@ function blinkTheGuy(){
     var sectionBtn = document.getElementsByClassName('section-btn');
     var btn = document.getElementsByClassName('btn');
 
+    var music = document.getElementsByClassName('music-lyrics');
+
     hair[0].classList.add('fringe');
 
     head[0].classList.add('skin--blink');
@@ -54,6 +56,8 @@ function blinkTheGuy(){
 
     sectionBtn[0].classList.add('section-btn--blink');
     btn[0].classList.add('btn--blink');
+
+    music[0].classList.add('music-lyrics--blink');
 }
 
 function unblinkTheGuy(){
@@ -75,6 +79,8 @@ function unblinkTheGuy(){
     var sectionBtn = document.getElementsByClassName('section-btn');
     var btn = document.getElementsByClassName('btn');
 
+    var music = document.getElementsByClassName('music-lyrics');
+
     hair[0].classList.remove('fringe');
 
     head[0].classList.remove('skin--blink');
@@ -94,4 +100,6 @@ function unblinkTheGuy(){
 
     sectionBtn[0].classList.remove('section-btn--blink');
     btn[0].classList.remove('btn--blink');
+
+    music[0].classList.remove('music-lyrics--blink');
 }
