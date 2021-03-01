@@ -18,10 +18,8 @@
     width: 99px;
     height: 50px;
     border-radius: 40% 100% 0 100%;
-    position: absolute;
     z-index: 4;
     box-shadow: inset 12px 0px 0px 1px white;
-    top: 30%;
 }
 
 /* HEAD */
