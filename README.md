@@ -4,7 +4,7 @@
 HTML, CSS e JS
 <br/><br/>
 **What is this?**<br/>
-It's a page with a guy, made with CSS and JS, that blinks when you click on the buttons :)
+It's a page with a guy, made with CSS and JS, that blinks182 when you click on the buttons :)
 
 # Quick links &#128150;
   
@@ -21,13 +21,9 @@ Open on your favorite browser ;)
 <img src="./src/img/banner.png" alt="The blink guy ;)" />
 
 # How is the development of the project right now?
-**Last update:** 28/02/2021
+**Last update:** 03/02/2024
 
-I didn't do too much, but it's honest work haha.
-Well, the guy is smiling and turn in a blink 182 fan when you click the button.
-Should I refine the CSS stuff? Of course. But not today (or not hahaha)
-
-Oh, btw, it's not responsive yet :)
+After 3 years, I refactored the code hahaha
 
 # Credits
 
