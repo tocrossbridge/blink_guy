@@ -1,46 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
     <head>
         <title>Blink Guy</title>
         <link rel="stylesheet" href="./src/css/index.css">
     </head>
+
     <body>
         <main>
-            <!-- The blink guy -->
-            <section class="section-blink">
-                <div class="hair"></div>
-                <div class="forehead"></div>
-                <div class="head">
-                    <div class="eyes">
-                        <div class="eyes--left"></div>
-                        <div class="eyes--right"></div>
+            <section>
+                <!-- The blink guy -->
+                <div class="the-guy">
+                    <div class="hair"></div>
+                    <div class="fringe"></div>
+                    <div class="forehead"></div>
+                    <div class="head">
+                        <div class="eyes">
+                            <div class="eyes--left"></div>
+                            <div class="eyes--right"></div>
+                        </div>
+                        <div class="mouth"></div>
                     </div>
-                    <div class="mouth"></div>
+                    <div class="shoulder"></div>
+                    <div class="trunk"></div>
+                    <div class="arms">
+                        <div class="arms--left"></div>
+                        <div class="arms--right"></div>
+                    </div>
                 </div>
-                <div class="shoulder"></div>
-                <div class="trunk"></div>
-                <div class="arms">
-                    <div class="arms--left"></div>
-                    <div class="arms--right"></div>
-                </div>
-            </section>
 
-            <!-- blink music -->
-            <section class="section-btn">
-                <p class="music-lyrics">
-                    &#127926;
-                    &#127908;
-                    <br>
-                    Where aaaaaaare you!?
-                    <br>
-                    And I'm so sorry!
-                    <br>
-                    I cannot sleep, I cannot dream tonight
-                </p>
-                <button class="btn" onclick="blink()"></button>
+                <div>
+                    <!-- Blink music -->
+                    <div class="blink-music">
+                        <p>
+                            &#127926;
+                            &#127908;
+                            <br>
+                            Where aaaaaaare you!?<br>
+                            And I'm so sorry!<br>
+                            I cannot sleep, I cannot dream tonight
+                        </p>
+                    </div>
+                    <!-- Button to change skins -->
+                    <div>
+                        <button id="btn" class="btn" onclick="blink()"></button>
+                    </div>
+                </div>
             </section>
         </main>
 
         <script src="./src/js/index.js"></script>
     </body>
+
 </html>

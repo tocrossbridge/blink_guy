@@ -1,155 +1,36 @@
-/* FONT */
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url('./vars.css');
+@import url('./head.css');
+@import url('./body.css');
 
-.skin--blink{
-    background-color: #F7CDAD!important;
-}
-
-/* HAIR */
-.hair{
-    width: 110px;
-    height: 40px;
-    position: absolute;
-    background-color: #000;
-    border-radius: 20px 20px 0px 0px;
-}
-.fringe{
-    background-color: #000;
-    width: 99px;
-    height: 50px;
-    border-radius: 40% 100% 0 100%;
-    z-index: 4;
-    box-shadow: inset 12px 0px 0px 1px white;
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
-/* HEAD */
-.head{
-    width: 100px;
-    height: 100px;
-    background-color: white;
-    border: 2px solid #999;
-    border-radius: 50%;
-}
-.head--blink{
-    border: 2px solid #efd8c6!important;
-}
-.forehead{
-    width: 70px;
-    height: 32px;
-    position: absolute;
-    background-color: #fff;
-    margin-left: 16px;
-    margin-top: 20px;
+main {
+    margin: auto;
+    width: 600px;
 }
 
-/* EYES */
-.eyes{
-    position: absolute;
-    margin-top: 40px;
-    margin-left: 20px;
-}
-.eyes--left{
-    width: 10px;
-    height: 10px;
-    background-color: #999;
-    position: absolute;
-}
-.eyes--right{
-    width: 10px;
-    height: 10px;
-    background-color: #999;
-    margin-left: 40px;
-    position: absolute;
-}
-.eyes--blink{
-    border-radius: 20px 20px 0px 0px;
+main > section:first-child {
+    display: flex;
 }
 
-/* MOUTH */
-.mouth{
-    width: 30px;
-    height: 5px;
-    background-color: #999;
-    position: absolute;
-    margin-top: 70px;
-    margin-left: 30px;
-}
-.mouth--blink{
-    background-color: #fff;
-    width: 3%;
-    height: 30px;
-    border-radius: 50%;
-    position: absolute;
-    margin-top: 55px;
-    margin-left: 24px;
-}
-.mouth--blink::before{
-    background-color: #F7CDAD!important;
-    content: "";
-    width: 100%;
-    height: 20px;
-    position: absolute;
-    border-radius: 50%;
-    margin-top: 0px;
-    margin-left: 0px;
+/* THE GUY*/
+.the-guy {
+    position: relative;
+    margin-right: 50px;
 }
 
-/* BODY */
-.trunk{
-    width: 100px;
-    height: 150px;
-    background-color: black;
-}
-.trunk--blink{
-    background-image: url('../img/blink.jpeg');
-    background-position-y: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 150px;
-    width: 100px;
-    z-index: 2;
-    position: absolute;
-}
-.shoulder{
-    width: 155px;
-    height: 50px;
-    position: absolute;
-    margin-left: -28px;
-    border-radius: 10px 10px 0px 0px;
-    z-index: 1;
-    background-color: black;
-}
-.shoulder--blink{
-    border-radius: 0px 0px 10px 10px;
-}
-.arms{
-    position: absolute;
-    margin-top: -130px;
-    margin-left: -24px;
-}
-
-.arms--left{
-    width: 20px;
-    height: 130px;
-    background-color: #999;
-    position: absolute;
-}
-.arms--left--blink{
-    background-color: #F7CDAD!important;
-}
-.arms--right{
-    width: 20px;
-    height: 130px;
-    background-color: #999;
-    margin-left: 127px;
-    position: absolute;
-}
-.arms--right--blink{
-    background-color: #F7CDAD!important;
+.the-guy.blink {
+    animation: jumpAnimation 1s ease-in-out infinite;
 }
 
 /* BUTTON */
-.btn{
+button {
     padding: 10px 20px;
     background-color: rgb(0, 166, 172);
     border-radius: 8px;
@@ -159,26 +40,54 @@
     text-transform: uppercase;
     color: #fff;
 }
-.btn::after{
+
+button:hover {
+    cursor: pointer;
+}
+
+button::after {
     content: 'Blink me!';
 }
-.btn--blink{
-    background-color: rgb(226, 24, 24)!important;
+
+button.blink {
+    background-color: rgb(226, 24, 24);
 }
-.btn--blink::after{
+
+button.blink::after {
     content: 'Unblink me :(('
 }
 
-/* GENERAL */
-main{
-    margin-left: 30%;
-    margin-top: 20%;
-    display: flex;
+.blink-music {
+    display: none;
+    margin: auto;
 }
-.section-blink{ width: 20%; }
-.section-btn{
-    margin-top: 5rem;
-    width: 20%;
+
+.blink-music > p {
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: 600;
 }
-.music-lyrics{ font-family: 'DotGothic16', sans-serif;  font-weight: 600;display: none; }
-.music-lyrics--blink{ font-family: 'DotGothic16', sans-serif;  font-weight: 600;display: block; }
+
+.music-lyrics--blink {
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: 600;
+    display: block;
+}
+
+@keyframes jumpAnimation {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-20px);
+    }
+
+    60% {
+        transform: translateY(-10px);
+    }
+}

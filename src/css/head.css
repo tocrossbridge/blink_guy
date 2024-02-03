@@ -1,0 +1,99 @@
+/* NORMAL GUY */
+.head {
+  width: 100px;
+  height: 100px;
+  background-color: var(--skin);
+  border: 2px solid var(--skin-border);
+  border-radius: 50%;
+}
+
+.hair {
+  width: 110px;
+  height: 40px;
+  position: absolute;
+  background-color: var(--hair-color);
+  border-radius: 20px 20px 0px 0px;
+}
+
+.the-guy .forehead,
+.the-guy.blink .forehead {
+  width: 70px;
+  height: 32px;
+  position: absolute;
+  margin-left: 16px;
+  margin-top: 20px;
+}
+
+.the-guy .forehead {
+  background-color: var(--skin);
+}
+
+.eyes {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.eyes--left {
+  width: 10px;
+  height: 10px;
+  background-color: var(--eyes);
+  position: absolute;
+}
+
+.eyes--right {
+  width: 10px;
+  height: 10px;
+  background-color: var(--eyes);
+  margin-left: 40px;
+  position: absolute;
+}
+
+.mouth {
+  width: 30px;
+  height: 5px;
+  background-color: var(--mouth);
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 30px;
+}
+
+/* BLINK GUY */
+.the-guy.blink .head {
+  background-color: var(--skin-blink);
+  border: 2px solid var(--skin-blink);
+}
+
+.the-guy.blink .hair {
+  border-radius: 20px 30px 0px 0px;
+}
+
+.the-guy.blink .forehead {
+  background-color: var(--skin-blink);
+}
+
+.the-guy.blink .fringe {
+  width: 110px;
+  height: 50px;
+  position: absolute;
+  z-index: 4;
+  background-color: var(--hair-color);
+  border-radius: 6% 100% 0 100%;
+  box-shadow: inset 12px 0px 0px 1px white;
+}
+
+.the-guy.blink .eyes--left,
+.the-guy.blink .eyes--right {
+  background-color: var(--eyes-blink);
+  border-radius: 20px 20px 0px 0px;
+}
+
+.the-guy.blink .mouth {
+  background-color: var(--mouth-blink);
+  width: 10%;
+  height: 30px;
+  border-radius: 0 0 20px 20px;
+  position: absolute;
+  margin-top: 55px;
+  margin-left: 24px;
+}

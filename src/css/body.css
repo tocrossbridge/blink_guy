@@ -1,0 +1,65 @@
+/* NORMAL GUY */
+.trunk {
+  width: 100px;
+  height: 150px;
+  background-color: black;
+}
+
+.shoulder {
+  width: 155px;
+  height: 50px;
+  position: absolute;
+  margin-left: -28px;
+  border-radius: 10px 10px 0px 0px;
+  z-index: 1;
+  background-color: black;
+}
+
+.arms {
+  position: absolute;
+  margin-top: -130px;
+  margin-left: -24px;
+}
+
+.arms--left {
+  width: 20px;
+  height: 130px;
+  background-color: var(--skin);
+  border: 2px solid var(--skin-border);
+  position: absolute;
+}
+
+.arms--right {
+  width: 20px;
+  height: 130px;
+  background-color: var(--skin);
+  border: 2px solid var(--skin-border);
+  margin-left: 127px;
+  position: absolute;
+}
+
+/* BLINK GUY */
+.the-guy.blink .trunk {
+  background-image: url('../img/blink.jpeg');
+  background-position-y: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 100px;
+  z-index: 2;
+  position: absolute;
+}
+
+.the-guy.blink .shoulder {
+  border-radius: 0px 0px 10px 10px;
+}
+
+.the-guy.blink .arms--left {
+  background-color: var(--skin-blink);
+  border: var(--skin-blink);
+}
+
+.the-guy.blink .arms--right {
+  background-color: var(--skin-blink);
+  border: var(--skin-blink);
+}
